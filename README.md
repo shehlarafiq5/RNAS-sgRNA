@@ -68,6 +68,30 @@ File: Independent_datasets_generalization_cleaned.py
 ```sh  
 python benchmark_model.py
 ```
+### 2. Fine-tune with transfer learning:
+```sh
+python Transfer_learning_cell_line.py
+```
+### 3. Balance datasets and run statistical tests:
+```sh
+python Data_balancing_ks_mwu_test.py
+```
+### 4. Generalize model on independent datasets:
+```sh
+python Independent_datasets_generalization.py
+```
+### 5. Install Requirements:
+```sh
+pip install -r requirements.txt
+```
+# Citation
+@misc{rnas2025,
+  title        = {RNAS-sgRNA: Recurrent Neural Architecture Search for Detection of On-target Effects in Single Guided RNA},
+  author       = {Shehla Rafiq, Assif Assad},
+  year         = {2025},
+  howpublished = {\url{https://github.com/shehlarafiq5/RNAS-sgRNA}},
+  note         = {Unpublished manuscript}
+}
 
 
 
