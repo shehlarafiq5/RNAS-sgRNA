@@ -67,14 +67,7 @@ File: Independent_datasets_generalization_cleaned.py
 ## 1. Train NAS model on benchmark dataset:  
 ```sh  
 python benchmark_model.py
-2. Fine-tune with transfer learning
-sh
-python Transfer_learning_cell_line.py
-python Data_balancing_ks_mwu_test.py
-```sh
-python Independent_datasets_generalization.py
-```sh
-pip install -r requirements.txt  
+
 
 
 
