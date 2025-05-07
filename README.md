@@ -66,6 +66,8 @@ File: Independent_datasets_generalization_cleaned.py
 ## Train NAS model on benchmark dataset:
 ```sh
 python benchmark_model.py
+Fine-tune with transfer learning:
+Sh
 python Transfer_learning_cell_line.py
 
 
