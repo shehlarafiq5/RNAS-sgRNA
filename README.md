@@ -67,11 +67,23 @@ Train NAS model on benchmark dataset:
 ```bash
 python benchmark_model.py
 Fine-tune with transfer learning:
+```bash
 python Transfer_learning_cell_line.py
 Balance datasets and run statistical tests:
+```bash
 python Data_balancing_ks_mwu_test.py
 Generalize model on independent datasets:
+```bash
 python Independent_datasets_generalization.py
+
+
+@misc{crisprgraphnet2025,
+  title        = {RNAS-sgRNA: Recurrent Neural Architecture Search for Detection of On-target Effects in Single Guided RNA},
+  author       = {Shehla Rafiq, Assif Assad},
+  year         = {2025},
+  howpublished = {\url{https://github.com/shehlarafiq5/RNAS-sgRNA}},
+  note         = {Unpublished manuscript}
+}
 
 
 
