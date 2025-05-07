@@ -1,1 +1,10 @@
+tensorflow
+autokeras
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+scipy
+ipywidgets
 
