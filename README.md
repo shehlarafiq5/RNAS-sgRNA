@@ -62,9 +62,9 @@ File: Independent_datasets_generalization_cleaned.py
 
 - The script handles potential layer mismatch (e.g., CastToFloat32) by registering custom layers.
   
-# ▶️ Usage
+## ▶️ Usage
 
-## 1. Train NAS model on benchmark dataset:  
+### 1. Train NAS model on benchmark dataset:  
 ```sh  
 python benchmark_model.py
 
