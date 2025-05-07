@@ -67,20 +67,11 @@ File: Independent_datasets_generalization_cleaned.py
 ### 1. Train NAS model on benchmark dataset:  
 ```sh  
 python benchmark_model.py
+```
 
 
 
 
-
-
- Citation
-@misc{crisprgraphnet2025,
-  title        = {RNAS-sgRNA: Recurrent Neural Architecture Search for Detection of On-target Effects in Single Guided RNA},
-  author       = {Shehla Rafiq, Assif Assad},
-  year         = {2025},
-  howpublished = {\url{https://github.com/shehlarafiq5/RNAS-sgRNA}},
-  note         = {Unpublished manuscript}
-}
 
 
 
