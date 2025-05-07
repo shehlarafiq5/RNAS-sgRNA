@@ -63,23 +63,25 @@ File: Independent_datasets_generalization_cleaned.py
 - The script handles potential layer mismatch (e.g., CastToFloat32) by registering custom layers.
   
 # ▶️ Usage
-## Train NAS model on benchmark dataset:
+Train NAS model on benchmark dataset:
 ```sh
 python benchmark_model.py
 ## Fine-tune with transfer learning:
-```sh
+sh
 python Transfer_learning_cell_line.py
 ## Balance datasets and run statistical tests:
-```sh
+sh
 python Data_balancing_ks_mwu_test.py
 Generalize model on independent datasets:
-```sh
+sh
 python Independent_datasets_generalization.py
+Requirements
+sh
+pip install -r requirements.txt
 
 
 
-
-Markdown
+## Citation
 @misc{crisprgraphnet2025,
   title        = {RNAS-sgRNA: Recurrent Neural Architecture Search for Detection of On-target Effects in Single Guided RNA},
   author       = {Shehla Rafiq, Assif Assad},
