@@ -64,16 +64,13 @@ File: Independent_datasets_generalization_cleaned.py
   
 # ▶️ Usage
 Train NAS model on benchmark dataset:
-```bash```
-python benchmark_model.py
+```bash
+python benchmark_model.py 
 Fine-tune with transfer learning:
-```bash```
 python Transfer_learning_cell_line.py
 Balance datasets and run statistical tests:
-```bash```
 python Data_balancing_ks_mwu_test.py
 Generalize model on independent datasets:
-```bash```
 python Independent_datasets_generalization.py
 
 
