@@ -63,21 +63,15 @@ File: Independent_datasets_generalization_cleaned.py
 - The script handles potential layer mismatch (e.g., CastToFloat32) by registering custom layers.
   
 # ▶️ Usage
-Train NAS model on benchmark dataset:
-```sh
-python benchmark_model.py
-## Fine-tune with transfer learning:
-sh
-python Transfer_learning_cell_line.py
-## Balance datasets and run statistical tests:
-sh
-python Data_balancing_ks_mwu_test.py
-Generalize model on independent datasets:
-sh
-python Independent_datasets_generalization.py
-Requirements
-sh
-pip install -r requirements.txt
+
+## 1. Train NAS model on benchmark dataset:  
+```sh  
+python benchmark_model.py  
+python Transfer_learning_cell_line.py  
+python Data_balancing_ks_mwu_test.py  
+python Independent_datasets_generalization.py  
+pip install -r requirements.txt  
+
 
 
 
