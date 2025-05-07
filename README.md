@@ -66,11 +66,20 @@ File: Independent_datasets_generalization_cleaned.py
 ## Train NAS model on benchmark dataset:
 ```sh
 python benchmark_model.py
-Fine-tune with transfer learning:
-Sh
+## Fine-tune with transfer learning:
+```sh
 python Transfer_learning_cell_line.py
+## Balance datasets and run statistical tests:
+```sh
+python Data_balancing_ks_mwu_test.py
+Generalize model on independent datasets:
+```sh
+python Independent_datasets_generalization.py
 
 
+
+
+Markdown
 @misc{crisprgraphnet2025,
   title        = {RNAS-sgRNA: Recurrent Neural Architecture Search for Detection of On-target Effects in Single Guided RNA},
   author       = {Shehla Rafiq, Assif Assad},
