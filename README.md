@@ -17,7 +17,7 @@ Mann–Whitney U (MWU) test
 + Generalization to Independent Datasets:
 Evaluate model performance on independent datasets such as A549.
 
-# # 1. Neural Architecture Search (NAS) on Benchmark Dataset
+ # 1. Neural Architecture Search (NAS) on Benchmark Dataset
 File: benchmark_model.py
 
 - AutoKeras to perform NAS on a benchmark sgRNA dataset.
@@ -61,4 +61,25 @@ File: Independent_datasets_generalization_cleaned.py
 - Pearson correlation is calculated to measure the agreement between predicted and actual efficacy values.
 
 - The script handles potential layer mismatch (e.g., CastToFloat32) by registering custom layers.
+  
+# ▶️ Usage
+Train NAS model on benchmark dataset:
+```bash
+python benchmark_model.py
+Fine-tune with transfer learning:
+python Transfer_learning_cell_line.py
+Balance datasets and run statistical tests:
+python Data_balancing_ks_mwu_test.py
+Generalize model on independent datasets:
+python Independent_datasets_generalization.py
+
+
+
+
+
+
+
+
+
+
 
